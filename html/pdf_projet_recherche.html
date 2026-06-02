@@ -4,7 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projet Recherche</title>
-    <link rel="stylesheet" href="..\css\styles.css">
+    <style>
+        /* Force la page entière à occuper 100% de la fenêtre du navigateur */
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden; /* Évite les doubles barres de défilement */
+        }
+        #pdf-container {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
 </head>
 
 <body class="container-pdf" id="pdf-container">
